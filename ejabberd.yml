@@ -1,0 +1,21 @@
+#!/usr/bin/env ansible-playbook
+
+##############################################################
+# Author: Amir Jamshidi jam
+# Email: amir.jamshidijam@gmail.com
+##############################################################
+
+- name: Install and Configure Ejabberd
+  hosts: testservers
+  sudo: False
+  vars_files:
+    - settings.yml
+  tasks:
+    - name: Installing Ejabberd
+      apt: pkg=ejabberd update_cache=yes
+
+    - name: Installing Ejabberd's Config file in /etc/ejabberd/ejabberdctl.cfg
+      template: src=./templates/ejabberdctl.cfg dest=/etc/ejabberd/ejabberdctl.cfg force=yes
+
+    - name: Installing Ejabberd's Config file in /etc/ejabberd/ejabberd.yml
+      template: src=./templates/ejabberd.yml dest=/etc/ejabberd/ejabberd.yml force=yes
