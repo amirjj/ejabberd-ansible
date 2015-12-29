@@ -1,7 +1,7 @@
 Ejabberd
 ===========
 
-This is an ansible program that will install Ejabberd chat server in as many server you want. This is just a simple installation of Ejabberd on Debian/Wheazy.
+This is an ansible program that will install Ejabberd chat server in as many server you want.
 
 
 Contents
