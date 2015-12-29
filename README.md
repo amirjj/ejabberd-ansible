@@ -7,7 +7,7 @@ This is an ansible program that will install Ejabberd chat server in as many ser
 Contents
 ========
 
-**ejabberd.yml** :      This is installation scrip that with running it Ejabberd will be istalled and config file will be copied.
+**ejabberd.yml** :      This is an installation script that with running it, Ejabberd will be istalled and config files will be copied.
 
 **templates/ejabberd.yml**:       This is Ejabberd config file that you can replace it with your customized config file.
 
@@ -31,7 +31,7 @@ Usage
 
 **2**- Edit hosts file to add your hosts
 
-**3**- Run ejabberd.yml with this command: "ansible-playbook ejabberd.yml -vvvv"
+**3**- Run ejabberd.yml with this command:   "ansible-playbook ejabberd.yml -vvvv"
 
 
 Authors
