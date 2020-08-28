@@ -1,9 +1,5 @@
 #!/usr/bin/env ansible-playbook
 
-##############################################################
-# Author: Amir Jamshidi jam
-# Email: amir.jamshidijam@gmail.com
-##############################################################
 
 - name: Install and Configure Ejabberd
   hosts: testservers
