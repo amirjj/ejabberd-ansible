@@ -34,9 +34,3 @@ Usage
 **3**- Run ejabberd.yml with this command:   "ansible-playbook ejabberd.yml -vvvv"
 
 
-Authors
-=======
-
-**Author**: Amir Jamshidi jam
-
-**Email**: amir.jamshidijam@gmail.com
